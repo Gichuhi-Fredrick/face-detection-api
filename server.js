@@ -28,7 +28,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 
 app.get("/", (req, res) => {
-  res.send(db.users);
+  res.send("Let's Go");
 });
 
 app.post("/signin", (req, res) => {
