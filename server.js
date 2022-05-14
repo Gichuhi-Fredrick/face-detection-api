@@ -20,7 +20,7 @@ const app = express();
 const corsOptions = {
   origin: "*",
   optionsSuccessStatus: 200, // For legacy browser support
-  methods: "GET, POST",
+  methods: "GET, POST, PUT",
 };
 app.use(cors(corsOptions));
 
